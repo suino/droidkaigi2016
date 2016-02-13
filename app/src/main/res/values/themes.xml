@@ -15,11 +15,16 @@
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="android:alertDialogStyle">@style/DialogTheme</item>
         <item name="android:textColorLink">@color/theme500</item>
+        <item name="android:buttonStyle">@style/Button</item>
     </style>
 
     <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
         <!-- avoid duplicate background beneath the dialog -->
         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
